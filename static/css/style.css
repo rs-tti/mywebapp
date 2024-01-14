@@ -1,0 +1,63 @@
+@import url(https://unpkg.com/sanitize.css);
+@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css);
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+.book {
+    border: 1px solid #ddd;
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.book h2 {
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.book p {
+    margin: 10px 0;
+    color: #666;
+}
+
+.flashMessage {
+    position: fixed; /*変更点：fixedでフロートさせる */
+    padding: 10px;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+}
+
+div.new-book-form{
+    /* 外側 */
+    margin: 0px auto;
+    /* 内側 */
+    padding: 10px;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid #333333;
+    padding:8px;
+    /*16以上でないと表示がおかしくなる */
+    font-size: 16px;
+}
+
+/* .btn.btn-primary{
+    border-radius: 20px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 1);
+} */
